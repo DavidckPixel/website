@@ -1,0 +1,38 @@
+.topbar{
+    width:100%;
+    height:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topbar__home{
+    width: calc(100% / 3 * 2);
+    height:100%;
+    float:left;
+    min-height:25px;
+}
+
+.topbar__link{
+    width: calc(100% / 3);
+    height:100%;
+    float:left;
+    min-height:25px;
+}
+
+.topbar__imageContainer{
+    width: calc(100% / 2);
+    float:left;
+}
+
+.topbar__image{
+    display: block;
+    width: calc(100% - 20%);
+    max-width:50px;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: 0;
+    margin-top:0;
+    border-radius: 50%;
+    float: left;
+}

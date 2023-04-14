@@ -1,0 +1,139 @@
+.nav{
+    width:100%;
+    height:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.navAll{
+    width:100%;
+    height:auto;
+}
+
+.navContainer{
+    width:calc((100% - 10%) / 5);
+    float:left;
+    margin:1%;
+    position:relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navTextContainer{
+    background-color:white;
+    color:black;
+    width:100%;
+    text-align:center;
+}
+
+.navMiddle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);   
+}
+
+.navText{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px; 
+}
+
+.navContainer:hover .navContainer__image {
+    opacity: 0.3;
+  }
+  
+.navContainer:hover .navMiddle {
+    opacity: 1;
+  }
+
+.navContainer__image{
+    display: block;
+    width: calc(100%);
+    margin-bottom: 0;
+    margin-top: 0;
+    float: left;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+.quickNav{
+    width:100%;
+    height:auto;
+    display:block;
+    border: 2px solid black;
+}
+
+.quickNav__title{
+    width:40%;
+    margin-left:30%;
+    margin-right:30%;
+    text-align:center;
+}
+
+.quickNavContainer{
+    width:40%;
+    float:left;
+    margin-left:4%;
+    margin-right:4%;
+    border: 1px solid black;
+    position:relative;
+}
+
+.quickNav__imageContainer{
+    width:50%;
+    float:left;
+}
+
+.quickNavContainer:hover{
+    filter:blur(0px);
+    transition: .5s ease;
+}
+
+.quickNav__text{
+    white-space: nowrap; 
+    color: black;
+    background-color:white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.quickNav__image{
+    display: block;
+    width: calc(100% - 20%);
+    margin-left: 10%;
+    margin-right:10%;
+    float:left;
+}
+
+.quickNav__overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter:blur(2px);
+    
+}
+
+.quickNavContainer:hover .quickNav__overlay{
+    width:100%;
+}
+
+.quickNav__textContainer{
+    width:50%;
+    float:left;
+}

@@ -1,0 +1,27 @@
+.aboutMe{
+    width:60%;
+    height:auto;
+    border: 2px solid black
+}
+
+.aboutMe__imgContainer{
+    width: calc(100% / 3);
+    min-height:100px;
+    margin-right:5%;
+    height: auto;
+    float:left;
+}
+
+.aboutMe__textContainer{
+    width: calc(100% / 3 * 2 - 7%);
+    height: auto;
+    min-height:100px;
+    float:left;
+}
+
+.aboutMe__image{
+    display:inline-block;
+    object-fit:contain;
+    width:100%;
+    border-radius:15px;
+}

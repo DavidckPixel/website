@@ -1,0 +1,18 @@
+.mainbody {
+    width: 100%;
+    max-width: 1024px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:0 auto;
+    padding: 0 15px;
+    margin-bottom: 4rem;
+}
+
+.mainbody__blog{
+    width:85%;
+    max-width:1024px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:0 auto;
+    padding: 0 15px;
+    margin-bottom: 4rem;
+    float:left
+}

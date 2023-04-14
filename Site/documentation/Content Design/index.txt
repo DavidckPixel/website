@@ -1,0 +1,25 @@
+Index Pages
+
+--xx-- Plan --xx--
+    -> Goals 
+        -- Lobby Page
+    -> Primary CTA
+        -- Overview of current relevant information
+        -- Click to more specified pages
+    -> Information 
+        -- What is this site about
+        -- Images of projects
+
+
+--xx-- Structure --xx--
+    -> Header
+        -- Rouletting Images of Projects
+    -> Navigators 
+        -- Different sections of the site
+    -> About me
+        -- Who, what, why
+    -> Upcomming Projects
+        -- What
+    -> Most Recent Blog Post
+        -- Link to full Post
+    -> Shortcut to all other projects

@@ -1,0 +1,8 @@
+.blognav {
+    float:left;
+    width:15%;
+    border: 2px solid black;
+    overflow:scroll;
+    position:relative;
+    height:80vh
+}

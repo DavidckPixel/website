@@ -1,0 +1,63 @@
+.recent {
+    height: 20em;
+    border: 2px solid black;
+}
+
+.recentpost_button {
+    width: 10%;
+
+}
+
+.recentpost_next {
+    float : left;
+}
+
+.recentpost_prev {
+    float: right;
+}
+
+.recentposts {
+    box-sizing:border-box;
+    float : left;
+    width: 80%;
+    height:100%;
+}
+
+
+.recentpost {
+    margin: 2%;
+    float: left;
+    width : 29%;
+    height : 90%;
+    border: 2px solid black;
+}
+
+.recentpost:hover {
+    transform: scale(1.1);
+}
+
+.recentpost_image {
+    height:30%;
+    overflow:hidden;
+}
+
+.recentpost_image img{
+    max-height: auto;
+    max-width: 100%;
+}
+
+.recentpost_text {
+    height:50%;
+    overflow:hidden;
+}
+
+.recentpost_link {
+    height:20%;
+    overflow:hidden;
+}
+
+.recentpost_link img{
+    float:right;
+    max-height:100%;
+    max-width: auto;
+}
