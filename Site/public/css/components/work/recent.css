@@ -1,0 +1,26 @@
+.workrecent {
+  height: 15em;
+}
+
+.workrecent__container {
+  width: 28%;
+  height: 80%;
+  margin: auto;
+}
+.workrecent__containers {
+  vertical-align: bottom;
+  width: 100%;
+  margin-top: -10px;
+  display: flex;
+  height: 80%;
+  z-index: -1;
+}
+
+.workrecent__title {
+  background-color: white;
+  position: relative;
+  width: 26%;
+  height: 20%;
+  margin-left: 2%;
+  z-index: 1;
+}

@@ -16,7 +16,7 @@ ctx.lineWidth = 1;
 function imageData() {
     let canvas = document.createElement("canvas");
     let img = new Image();
-    img.src = "test1.png";
+    img.src = "test.png";
 
     img.onload = function() {
 

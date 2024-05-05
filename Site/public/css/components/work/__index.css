@@ -1,0 +1,9 @@
+@import "header.css";
+@import "worknav.css";
+@import "recent.css";
+@import "slider.css";
+@import "skills.css";
+
+.temp {
+  height: 10em;
+}

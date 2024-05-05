@@ -1,30 +1,60 @@
 .container {
-    width: 100%;
-    max-width: 960px;
-    margin:0 auto;
-    padding: 0 15px;
-    margin-bottom: 4rem;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-bottom: 4rem;
 }
 
-.container::before, .container::after {
-    content: "";
-    display: table;
-    clear: both;
+.container--small {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-bottom: 4rem;
 }
 
-.container--centerVertical{
-    margin: 30px auto;
-    padding: 15px 0;
+.container::before,
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-body{
-    background-blend-mode: normal;
+.container--centerVertical {
+  margin: 30px auto;
+  padding: 15px 0;
+}
+
+body {
+  background-blend-mode: normal;
 }
 
 .container--two {
-    float:left;
-    width:50%;
-    margin:0 auto;
-    padding: 0 15px;
-    margin-bottom: 4rem;
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-bottom: 4rem;
+}
+
+.container--33 {
+  float: left;
+  width: 33%;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-bottom: 4rem;
+}
+
+.container--66 {
+  float: left;
+  width: 66%;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-bottom: 4rem;
+}
+
+.square {
+  height: auto;
+  aspect-ratio: 1/1;
 }

@@ -1,0 +1,17 @@
+.skill {
+  width: 100%;
+  height: 15em;
+  border: 2px solid black;
+}
+
+.skill img {
+  width: 30%;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin: auto;
+  display: block;
+}
+
+.skill h3 {
+  text-align: center;
+}
