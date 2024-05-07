@@ -3,7 +3,18 @@
 @import "recent.css";
 @import "slider.css";
 @import "skills.css";
+@import "education.css";
+@import "timeline.css";
+@import "body.css";
 
 .temp {
   height: 10em;
+}
+
+body {
+  background: #e1e2e2;
+}
+
+.mainbody {
+  background: white;
 }

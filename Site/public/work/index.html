@@ -21,7 +21,7 @@
               alt="test image"
             />
           </div>
-          <div class="header__personalinfo">
+          <div class="header__personalinfo background--grey">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -40,24 +40,42 @@
           </div>
         </article>
       </header>
-      <nav class="container worknav">
-        <div class="worknav__cv boxed">test</div>
+      <nav class="container worknav background--dark">
+        <div class="worknav__cv">
+          <a class="background--orange worknav__cvlink"> Test </a>
+        </div>
         <div class="worknav__links">
-          <div class="worknav__link boxed square">test</div>
-          <div class="worknav__link boxed square">test</div>
-          <div class="worknav__link boxed square">test</div>
-          <div class="worknav__link boxed square">test</div>
+          <div class="worknav__link square background--orange">test</div>
+          <div class="worknav__link square background--orange">test</div>
+          <div class="worknav__link square background--orange">test</div>
+          <div class="worknav__link square background--orange">test</div>
         </div>
       </nav>
 
       <article class="container workrecent">
-        <div class="workrecent__title boxed">Recent!</div>
-        <article class="workrecent__containers boxed">
-          <section class="workrecent__container boxed">test</section>
-          <section class="workrecent__container boxed">test</section>
-          <section class="workrecent__container boxed">test</section>
+        <div class="workrecent__title boxed background--grey">Recent!</div>
+        <article class="workrecent__containers boxed background--dark">
+          <section class="workrecent__container boxed">
+            <div class="workrecent__containertitle background--orangeflow">
+              Title
+            </div>
+            Test
+          </section>
+          <section class="workrecent__container boxed">
+            <div class="workrecent__containertitle background--orangeflow">
+              Title
+            </div>
+            Test
+          </section>
+          <section class="workrecent__container boxed">
+            <div class="workrecent__containertitle background--orangeflow">
+              Title
+            </div>
+            Test
+          </section>
         </article>
       </article>
+
       <article class="container--small">
         <div class="slider">
           <div class="slide-track">
@@ -183,44 +201,118 @@
           </div>
         </div>
       </article>
+
+      <div class="container">
+        <hr class="line__short--black" />
+        <hr class="line__short--orange" />
+      </div>
+
       <article class="container">
         <section class="skills container--33 boxed">
           <div class="skill">
-            <img src="../image/Temp.png" />
-            <h3>Epic skill!</h3>
+            <div class="skill__header">
+              <div class="block--orange">
+                <img src="../image/Temp.png" />
+              </div>
+              <h3>Epic skill!</h3>
+            </div>
             <p>Lorem Upsum!</p>
           </div>
           <div class="skill">
-            <img src="../image/Temp.png" />
-            <h3>Epic skill!</h3>
-            <p>Lorem Upsum!</p>
-          </div>
-        </section>
-        <section class="skills container--33 boxed">
-          <div class="skill">
-            <img src="../image/Temp.png" />
-            <h3>Epic skill!</h3>
-            <p>Lorem Upsum!</p>
-          </div>
-          <div class="skill">
-            <img src="../image/Temp.png" />
-            <h3>Epic skill!</h3>
+            <div class="skill__header">
+              <div class="block--orange">
+                <img src="../image/Temp.png" />
+              </div>
+              <h3>Epic skill!</h3>
+            </div>
             <p>Lorem Upsum!</p>
           </div>
         </section>
         <section class="skills container--33 boxed">
           <div class="skill">
-            <img src="../image/Temp.png" />
-            <h3>Epic skill!</h3>
+            <div class="skill__header">
+              <div class="block--orange">
+                <img src="../image/Temp.png" />
+              </div>
+              <h3>Epic skill!</h3>
+            </div>
             <p>Lorem Upsum!</p>
           </div>
           <div class="skill">
-            <img src="../image/Temp.png" />
-            <h3>Epic skill!</h3>
+            <div class="skill__header">
+              <div class="block--orange">
+                <img src="../image/Temp.png" />
+              </div>
+              <h3>Epic skill!</h3>
+            </div>
+            <p>Lorem Upsum!</p>
+          </div>
+        </section>
+        <section class="skills container--33 boxed">
+          <div class="skill">
+            <div class="skill__header">
+              <div class="block--orange">
+                <img src="../image/Temp.png" />
+              </div>
+              <h3>Epic skill!</h3>
+            </div>
+            <p>Lorem Upsum!</p>
+          </div>
+          <div class="skill">
+            <div class="skill__header">
+              <div class="block--orange">
+                <img src="../image/Temp.png" />
+              </div>
+              <h3>Epic skill!</h3>
+            </div>
             <p>Lorem Upsum!</p>
           </div>
         </section>
       </article>
+
+      <article class="container--small">
+        <section class="container--two boxed background--dark">
+          <button
+            onclick="onEducationClick('UU')"
+            class="boxed education__faculty background--orange"
+          >
+            <img src="../image/Temp.png" />
+            <h3>UU</h3>
+          </button>
+          <button
+            onclick="onEducationClick('UU1')"
+            class="boxed education__faculty background--orange"
+          >
+            <img src="../image/Temp.png" />
+            <h3>UU1</h3>
+          </button>
+          <button
+            onclick="onEducationClick('UU2')"
+            class="boxed education__faculty background--orange"
+          >
+            <img src="../image/Temp.png" />
+            <h3>UU2</h3>
+          </button>
+        </section>
+        <section
+          class="container--two boxed background--grey"
+          id="education__info"
+        >
+          Test
+        </section>
+      </article>
+
+      <article class="container boxed">
+        <div class="timeline__title">
+          <h3>Timeline</h3>
+        </div>
+        <section id="timeline" class="timeline">
+          <hr />
+          <div class="vl"></div>
+        </section>
+      </article>
     </article>
   </body>
+  <script src="../../src/education.js"></script>
+  <script src="../../src/timeline.js"></script>
 </html>

@@ -1,0 +1,13 @@
+.education__faculty {
+  margin: 5%;
+  width: 90%;
+  height: 10em;
+}
+
+.education__faculty img {
+  width: 30%;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin: auto;
+  display: block;
+}

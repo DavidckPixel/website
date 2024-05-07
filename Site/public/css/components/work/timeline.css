@@ -1,0 +1,56 @@
+.timeline {
+  min-height: 25em;
+  position: relative;
+  height: auto;
+}
+
+.timeline__title {
+  width: 25%;
+  display: block;
+  margin: auto;
+}
+
+.timeline__title h3 {
+  text-align: center;
+}
+
+.timeline hr {
+  width: 80%;
+}
+
+.timeline .vl {
+  height: 80%;
+  border-left: 6px solid black;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.timeline__entry {
+  position: absolute;
+}
+
+.timeline .left {
+  right: 50%;
+}
+
+.timeline .right {
+  left: 50%;
+}
+
+.timeline .big {
+  width: 40%;
+}
+
+.timeline__testbox {
+  top: 50px;
+  height: 10em;
+  width: 40%;
+}
+
+.timeline__testbox2 {
+  top: 150px;
+  height: 5em;
+  width: 20%;
+}

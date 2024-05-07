@@ -50,6 +50,7 @@
 .slide__img {
   width: 50%;
   border-radius: 50%;
+  border: 5px solid #fb8122;
 }
 
 .slide-track:hover {
