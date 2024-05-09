@@ -10,14 +10,18 @@
 
   <body>
     <article class="mainbody">
-      <aside class="worksidebar"></aside>
+      <!-- <aside class="worksidebar"></aside> -->
       <header class="work__header">
-        <img class="header__topbarimage" src="../image/Temp.png" alt="test" />
+        <img
+          class="header__topbarimage"
+          src="../image/programming.jpg"
+          alt="test"
+        />
         <article class="container header__overlay">
           <div class="header__person">
             <img
               class="header__personimage"
-              src="../image/Temp.png"
+              src="../image/testme.jpg"
               alt="test image"
             />
           </div>
@@ -42,10 +46,16 @@
       </header>
       <nav class="container worknav background--dark">
         <div class="worknav__cv">
-          <a class="background--orange worknav__cvlink"> Test </a>
+          <a class="background--orange worknav__cvlink">
+            <div class="text__outer">
+              <h2 class="text__center">curriculum vitae</h2>
+            </div>
+          </a>
         </div>
         <div class="worknav__links">
-          <div class="worknav__link square background--orange">test</div>
+          <div class="worknav__link square background--orange">
+            <img class="worknav__linkimg" src="../image/Temp.png" />
+          </div>
           <div class="worknav__link square background--orange">test</div>
           <div class="worknav__link square background--orange">test</div>
           <div class="worknav__link square background--orange">test</div>
@@ -53,13 +63,18 @@
       </nav>
 
       <article class="container workrecent">
-        <div class="workrecent__title boxed background--grey">Recent!</div>
+        <div class="workrecent__title background--grey">
+          <h2 class="text__center text__recent">Recent Projects</h2>
+        </div>
         <article class="workrecent__containers boxed background--dark">
           <section class="workrecent__container boxed">
             <div class="workrecent__containertitle background--orangeflow">
-              Title
+              <h3>Personal Website</h3>
             </div>
-            Test
+            <p>
+              A website for me to share my personal creations & thoughts. Using
+              pure HTML ,CSS ,JS
+            </p>
           </section>
           <section class="workrecent__container boxed">
             <div class="workrecent__containertitle background--orangeflow">
@@ -208,7 +223,27 @@
       </div>
 
       <article class="container">
-        <section class="skills container--33 boxed">
+        <section class="skills container--33">
+          <div class="skill">
+            <div class="skill__header">
+              <div class="block--orange border--blue">
+                <img src="../image/Temp.png" />
+              </div>
+              <h3>Epic skill!</h3>
+            </div>
+            <p>Lorem Upsum!</p>
+          </div>
+          <div class="skill">
+            <div class="skill__header">
+              <div class="block--orange">
+                <img src="../image/Temp.png" />
+              </div>
+              <h3>Epic skill!</h3>
+            </div>
+            <p>Lorem Upsum!</p>
+          </div>
+        </section>
+        <section class="skills container--33">
           <div class="skill">
             <div class="skill__header">
               <div class="block--orange">
@@ -228,27 +263,7 @@
             <p>Lorem Upsum!</p>
           </div>
         </section>
-        <section class="skills container--33 boxed">
-          <div class="skill">
-            <div class="skill__header">
-              <div class="block--orange">
-                <img src="../image/Temp.png" />
-              </div>
-              <h3>Epic skill!</h3>
-            </div>
-            <p>Lorem Upsum!</p>
-          </div>
-          <div class="skill">
-            <div class="skill__header">
-              <div class="block--orange">
-                <img src="../image/Temp.png" />
-              </div>
-              <h3>Epic skill!</h3>
-            </div>
-            <p>Lorem Upsum!</p>
-          </div>
-        </section>
-        <section class="skills container--33 boxed">
+        <section class="skills container--33">
           <div class="skill">
             <div class="skill__header">
               <div class="block--orange">
@@ -270,28 +285,46 @@
         </section>
       </article>
 
+      <div class="bar--black">
+        <div class="bartitle__middle--white">
+          <div class="bartitle__inline--orange">Education</div>
+        </div>
+      </div>
+
       <article class="container--small">
         <section class="container--two boxed background--dark">
           <button
             onclick="onEducationClick('UU')"
             class="boxed education__faculty background--orange"
           >
-            <img src="../image/Temp.png" />
-            <h3>UU</h3>
+            <div class="education__img">
+              <img src="../image/Temp.png" />
+            </div>
+            <div class="education__text">
+              <h3>UU2</h3>
+            </div>
           </button>
           <button
             onclick="onEducationClick('UU1')"
             class="boxed education__faculty background--orange"
           >
-            <img src="../image/Temp.png" />
-            <h3>UU1</h3>
+            <div class="education__img">
+              <img src="../image/Temp.png" />
+            </div>
+            <div class="education__text">
+              <h3>UU2</h3>
+            </div>
           </button>
           <button
             onclick="onEducationClick('UU2')"
             class="boxed education__faculty background--orange"
           >
-            <img src="../image/Temp.png" />
-            <h3>UU2</h3>
+            <div class="education__img">
+              <img src="../image/Temp.png" />
+            </div>
+            <div class="education__text">
+              <h3>UU2</h3>
+            </div>
           </button>
         </section>
         <section
@@ -302,10 +335,13 @@
         </section>
       </article>
 
-      <article class="container boxed">
-        <div class="timeline__title">
-          <h3>Timeline</h3>
+      <div class="bar--black">
+        <div class="bartitle__middle--white">
+          <div class="bartitle__inline--orange">Timeline</div>
         </div>
+      </div>
+
+      <article class="container">
         <section id="timeline" class="timeline">
           <hr />
           <div class="vl"></div>

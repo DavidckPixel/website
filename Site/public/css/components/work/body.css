@@ -13,12 +13,12 @@
 }
 
 .background--grey {
-  background-color: #e1e2e2;
+  background-color: white;
 }
 
 .mainbody {
   padding: 0;
-  background-color: #d9edfd !important;
+  background-color: #f8f8f8 !important;
 }
 
 .line__short--black {
@@ -40,4 +40,39 @@
 .block--orange {
   width: 100%;
   background-color: #fb8122;
+}
+
+.bar--black {
+  background-color: #1d2228;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.bartitle__middle--white {
+  width: 20%;
+  display: block;
+  margin: auto;
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+.bartitle__inline--orange {
+  width: 80%;
+  display: block;
+  margin: auto;
+  height: 100%;
+  background-color: #fb8122;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(1, 31, 114, 0.8),
+    0 10px 50px 0 rgba(1, 31, 114, 0.5);
+}
+
+.border--blue {
+  box-shadow: 0 4px 8px 0 rgba(1, 31, 114, 0.8),
+    0 10px 50px 0 rgba(1, 31, 114, 0.5);
 }

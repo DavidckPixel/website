@@ -13,6 +13,14 @@ data = [
     size: "big",
     innerHTML: "testtestetst",
   },
+
+  {
+    start: new Date(2020, 2, 1),
+    end: new Date(2020, 10, 1),
+    side: "right",
+    size: "big",
+    innerHTML: "testtestetst",
+  },
 ];
 
 //1 month = 50px

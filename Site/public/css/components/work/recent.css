@@ -9,6 +9,17 @@
   background-color: white;
 }
 
+.workrecent__container:hover {
+  scale: 1;
+  border: 4px solid rgba(1, 31, 114, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(1, 31, 114, 0.8),
+    0 10px 50px 0 rgba(1, 31, 114, 0.5);
+}
+
+.workrecent__container:hover .workrecent__containertitle {
+  background-image: linear-gradient(#fa9c55 50%, white 100%) !important;
+}
+
 .workrecent__containers {
   vertical-align: bottom;
   width: 100%;
@@ -21,6 +32,7 @@
 .workrecent__containertitle {
   width: 100%;
   height: 40%;
+  padding: 5%;
 }
 
 .workrecent__title {
@@ -30,4 +42,6 @@
   height: 20%;
   margin-left: 2%;
   z-index: 1;
+  border-top: 10px solid #fb8122;
+  box-shadow: 10px 10px #1d2228;
 }
