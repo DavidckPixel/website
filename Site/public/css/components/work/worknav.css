@@ -26,6 +26,7 @@
 
 .worknav__link:hover {
   scale: 1.1;
+  background-color: #fa9c55;
   box-shadow: 0 4px 8px 0 rgba(1, 31, 114, 0.8),
     0 10px 50px 0 rgba(1, 31, 114, 0.5);
 }

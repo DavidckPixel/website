@@ -78,7 +78,27 @@ svg {
   stroke-width: 5px;
 }
 
-.slide:hover .stroke {
+.slide:hover .A {
+  stroke-dashoffset: 50;
+  transition: 0.6s ease-out;
+}
+
+.slide:hover .B {
   stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+
+.slide:hover .C {
+  stroke-dashoffset: 150;
+  transition: 0.6s ease-out;
+}
+
+.slide:hover .D {
+  stroke-dashoffset: 200;
+  transition: 0.6s ease-out;
+}
+
+.slide:hover .E {
+  stroke-dashoffset: 250;
   transition: 0.6s ease-out;
 }
