@@ -44,6 +44,17 @@
           </div>
         </article>
       </header>
+      <section class="container header__data">
+        <div class="header__data__name">
+          <p class="header__data__text--noimg"><b>David Koymans</b></p>
+        </div>
+        <div class="header__data__title">
+          <p class="header__data__text--noimg"><b>Student</b></p>
+        </div>
+        <div class="header__data__age">
+          <p class="header__data__text--noimg"><b>24</b></p>
+        </div>
+      </section>
       <nav class="container worknav background--dark">
         <div class="worknav__cv">
           <a class="background--orange worknav__cvlink">
@@ -115,7 +126,7 @@
           </div>
           <div class="skill">
             <div class="skill__header">
-              <div class="block--orange">
+              <div class="block--orange border--blue">
                 <img src="../image/Temp.png" />
               </div>
               <h3>Epic skill!</h3>
@@ -126,7 +137,7 @@
         <section class="skills container--33">
           <div class="skill">
             <div class="skill__header">
-              <div class="block--orange">
+              <div class="block--orange border--blue">
                 <img src="../image/Temp.png" />
               </div>
               <h3>Epic skill!</h3>
@@ -135,7 +146,7 @@
           </div>
           <div class="skill">
             <div class="skill__header">
-              <div class="block--orange">
+              <div class="block--orange border--blue">
                 <img src="../image/Temp.png" />
               </div>
               <h3>Epic skill!</h3>
@@ -146,7 +157,7 @@
         <section class="skills container--33">
           <div class="skill">
             <div class="skill__header">
-              <div class="block--orange">
+              <div class="block--orange border--blue">
                 <img src="../image/Temp.png" />
               </div>
               <h3>Epic skill!</h3>
@@ -155,7 +166,7 @@
           </div>
           <div class="skill">
             <div class="skill__header">
-              <div class="block--orange">
+              <div class="block--orange border--blue">
                 <img src="../image/Temp.png" />
               </div>
               <h3>Epic skill!</h3>
@@ -171,7 +182,7 @@
         </div>
       </div>
 
-      <article class="container--small">
+      <article class="container--small education">
         <section class="container--two">
           <button
             onclick="onEducationClick('UU')"
@@ -182,30 +193,34 @@
             </div>
             <div class="education__text">
               <div class="education__from">2020</div>
-              <div class="education__dash">>></div>
+              <div class="education__dash">Bacholer</div>
               <div class="education__to">2024</div>
             </div>
           </button>
           <button
-            onclick="onEducationClick('UU1')"
+            onclick="onEducationClick('AM')"
             class="boxed education__faculty background--orange"
           >
             <div class="education__img">
-              <img src="../image/Temp.png" />
+              <img src="../image/UU.png" />
             </div>
             <div class="education__text">
-              <h3>UU2</h3>
+              <div class="education__from">2020</div>
+              <div class="education__dash">Bacholer</div>
+              <div class="education__to">2024</div>
             </div>
           </button>
           <button
-            onclick="onEducationClick('UU2')"
+            onclick="onEducationClick('KWC')"
             class="boxed education__faculty background--orange"
           >
             <div class="education__img">
-              <img src="../image/Temp.png" />
+              <img src="../image/UU.png" />
             </div>
             <div class="education__text">
-              <h3>UU2</h3>
+              <div class="education__from">2020</div>
+              <div class="education__dash">Bacholer</div>
+              <div class="education__to">2024</div>
             </div>
           </button>
         </section>
@@ -213,7 +228,43 @@
           class="container--two boxed background--grey"
           id="education__info"
         >
-          Test
+          <section id="UU" class="hidden">
+            <header class="education__intro">
+              <p>I got my bacholers degree in Computer science at the UU</p>
+            </header>
+            <div class="container">
+              <hr class="line__short--black" />
+              <hr class="line__short--orange" />
+            </div>
+            <article class="container">
+              <h4 class="education__classtitle">Langueges and Compilers</h4>
+              <p class="education__classinfo">We made a compiler!</p>
+              <h4 class="education__classtitle">Langueges and Compilers</h4>
+              <p class="education__classinfo">We made a compiler!</p>
+              <h4 class="education__classtitle">Langueges and Compilers</h4>
+              <p class="education__classinfo">We made a compiler!</p>
+            </article>
+          </section>
+          <section id="AM" class="hidden">
+            <header class="education__intro">
+              <p>I want to study here!</p>
+            </header>
+            <div class="container">
+              <hr class="line__short--black" />
+              <hr class="line__short--orange" />
+            </div>
+            <article class="container"></article>
+          </section>
+          <section id="KWC" class="hidden">
+            <header class="education__intro">
+              <p>I went to highschool here</p>
+            </header>
+            <div class="container">
+              <hr class="line__short--black" />
+              <hr class="line__short--orange" />
+            </div>
+            <article class="container"></article>
+          </section>
         </section>
       </article>
 

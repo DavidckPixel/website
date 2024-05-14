@@ -9,6 +9,8 @@
 .skills {
   background-color: #1d2228;
   padding-bottom: 0;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
 }
 
 .skill__header {
@@ -24,5 +26,6 @@
 }
 
 .skill h3 {
+  padding-top: 1em;
   text-align: center;
 }

@@ -1,10 +1,16 @@
-data = { UU: "TEST", UU1: "TEST2", UU2: "TEST3" };
+edu_data = {
+  UU: () => document.getElementById("UU"),
+  AM: () => document.getElementById("AM"),
+  KWC: () => document.getElementById("KWC"),
+};
 
 function onEducationClick(button) {
-  console.log(button);
   let educationInfo = document.getElementById("education__info");
   educationInfo.classList.add("blur");
-  educationInfo.innerHTML = data[button];
+  for (edu in edu_data) {
+    edu_data[edu]().classList.add("hidden");
+  }
+  let innerHTML = edu_data[button]().classList.remove("hidden");
   setTimeout(function () {
     educationInfo.classList.remove("blur");
   }, 1000);

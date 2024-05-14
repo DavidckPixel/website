@@ -1,0 +1,10 @@
+    <header class='education__intro'></header>
+    <div class='container'>
+      <hr class='line__short--black' />
+      <hr class='line__short--orange' />
+    </div>
+    <article class='container'>
+      <h4>Langueges and Compilers</h4>
+      <hr class='line__short--black' />
+      <p>We made a compiler!</p>
+    </article>

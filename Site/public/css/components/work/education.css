@@ -19,6 +19,10 @@
   height: 100%;
 }
 
+.education {
+  height: 35em;
+}
+
 .education__img {
   padding: 0;
   width: auto;
@@ -34,12 +38,13 @@
   text-align: center;
   justify-content: space-around;
   padding-top: 1em;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #education__info {
   border-top: 20px solid #fb8122;
+  overflow: scroll;
 }
 
 .education__from {
@@ -52,7 +57,12 @@
 }
 
 .education__dash {
-  width: 20%;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 5px 5px #1d2228;
+  background-color: #fb8122;
+  height: 60%;
+  padding-top: 0%;
 }
 
 .education__to {
@@ -62,4 +72,22 @@
   background-color: aqua;
   height: 60%;
   padding-top: 0%;
+}
+
+.education__intro {
+  width: 80%;
+  margin: 10%;
+  border-top: 5px solid #fb8122;
+}
+
+.education__classtitle {
+  font-size: 20px;
+}
+
+.education__classinfo p {
+  font-size: 15px;
+}
+
+.hidden {
+  display: none;
 }
