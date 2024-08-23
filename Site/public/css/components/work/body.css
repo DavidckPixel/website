@@ -19,6 +19,7 @@
 .mainbody {
   padding: 0;
   background-color: #f8f8f8 !important;
+  height: 100%;
 }
 
 .line__short--black {
@@ -75,4 +76,9 @@
 .border--blue {
   box-shadow: 0 4px 8px 0 rgba(1, 31, 114, 0.8),
     0 10px 50px 0 rgba(1, 31, 114, 0.5);
+}
+
+.bartitle__title {
+  text-align: center;
+  padding-top: 10px;
 }
