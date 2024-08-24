@@ -51,7 +51,8 @@
   width: 30%;
   border-radius: 5px;
   box-shadow: 5px 5px #1d2228;
-  background-color: aqua;
+  border-top: 2px solid blue;
+  background-color: lightblue;
   height: 60%;
   padding-top: 0%;
 }
@@ -69,7 +70,8 @@
   width: 30%;
   border-radius: 5px;
   box-shadow: 5px 5px #1d2228;
-  background-color: aqua;
+  border-top: 2px solid blue;
+  background-color: lightblue;
   height: 60%;
   padding-top: 0%;
 }

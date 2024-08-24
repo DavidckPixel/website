@@ -1,30 +1,59 @@
 data = [
   {
-    start: new Date(2022, 0, 1),
-    end: new Date(2024, 3, 1),
+    start: new Date(2020, 9, 1),
+    end: new Date(2024, 7, 1),
     side: "left",
-    size: "big",
-    innerHTML: "<p style='padding-left:10px;color:blue'>testtestetst</p>",
-    position: 0,
+    innerHTML: "<p style='padding-left:10px'>Bacholer UU</p>",
+    position: 1,
+    type: "orange",
+  },
+  {
+    start: new Date(2023, 4, 1),
+    end: new Date(2023, 8, 1),
+    side: "left",
+    innerHTML: "<p style='padding-left:10px'>Bartender at Blink</p>",
+    position: 2,
+    type: "green",
+  },
+  {
+    start: new Date(2022, 7, 1),
+    end: new Date(2024, 5, 1),
+    side: "right",
+    innerHTML: "<p style='padding-left:10px'>RVA Viakunst</p>",
+    position: 1,
     type: "blue",
   },
   {
-    start: new Date(2019, 9, 1),
-    end: new Date(2024, 7, 1),
+    start: new Date(2022, 8, 1),
+    end: new Date(2023, 5, 1),
     side: "right",
-    size: "small",
-    innerHTML: "Bch. UU",
-    position: 0,
-    type: "orange",
+    innerHTML: "<p style='padding-left:10px'>Webmaster Viakunst</p>",
+    position: 2,
+    type: "blue",
   },
-
   {
-    start: new Date(2020, 2, 1),
-    end: new Date(2020, 10, 1),
+    start: new Date(2020, 10, 1),
+    end: new Date(2022, 5, 1),
+    side: "left",
+    innerHTML: "<p style='padding-left:10px'>Web commision Viakunst</p>",
+    position: 2,
+    type: "blue",
+  },
+  {
+    start: new Date(2019, 3, 1),
+    end: new Date(2019, 8, 1),
     side: "right",
-    size: "small",
-    innerHTML: "testtestetst",
-    position: 0.25,
+    innerHTML:
+      "<p style='padding-left:10px'>Night Receptionist Van de Valk</p>",
+    position: 1,
+    type: "green",
+  },
+  {
+    start: new Date(2018, 2, 1),
+    end: new Date(2018, 7, 1),
+    side: "left",
+    innerHTML: "<p style='padding-left:10px'>Finished Highschool</p>",
+    position: 1,
     type: "orange",
   },
 ];
@@ -44,26 +73,46 @@ function generateObj(event) {
   let eventobj = document.createElement("div");
   eventobj.classList.add("timeline__entry");
   eventobj.classList.add(event.side);
-  eventobj.classList.add(event.size);
 
   let textcontainer = document.createElement("div");
   let sidecontainer = document.createElement("div");
+  let line = document.createElement("div");
+  let lineBox = document.createElement("div");
+  let pop = document.createElement("div");
+  let dot = document.createElement("div");
+  let dot2 = document.createElement("div");
 
   sidecontainer.classList.add("side");
   sidecontainer.classList.add(event.type + "_Side");
   textcontainer.classList.add("timeline__container");
   textcontainer.classList.add(event.type + "_Box");
+  line.classList.add("line");
+  pop.classList.add("pop");
+  dot.classList.add("dot");
+  dot2.classList.add("dot");
+  lineBox.classList.add("lineBox");
+  dot.classList.add(event.type);
+  dot2.classList.add(event.type);
+  line.classList.add(event.type);
+
+  lineBox.appendChild(dot);
+  lineBox.appendChild(line);
+  lineBox.appendChild(dot2);
 
   textcontainer.innerHTML = event.innerHTML;
 
   if (event.side === "left") {
-    eventobj.appendChild(textcontainer);
-    eventobj.appendChild(sidecontainer);
-    eventobj.style.right = 50 + event.position * 40 + "%";
+    pop.appendChild(textcontainer);
+    pop.appendChild(sidecontainer);
+    eventobj.appendChild(pop);
+    eventobj.appendChild(lineBox);
+    eventobj.style.right = 50 + event.position * 1.5 + "%";
   } else {
-    eventobj.appendChild(sidecontainer);
-    eventobj.appendChild(textcontainer);
-    eventobj.style.left = 50 + event.position * 40 + "%";
+    eventobj.appendChild(lineBox);
+    pop.appendChild(sidecontainer);
+    pop.appendChild(textcontainer);
+    eventobj.appendChild(pop);
+    eventobj.style.left = 50 + event.position * 1.5 + "%";
   }
 
   let DateNow = new Date(Date.now());
@@ -77,6 +126,7 @@ function generateObj(event) {
 
   eventobj.style.top = top + "px";
   eventobj.style.height = length + "px";
+  eventobj.style.width = 40 - event.position * 1.5 + "%";
 
   timeline.appendChild(eventobj);
 

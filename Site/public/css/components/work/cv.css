@@ -1,0 +1,64 @@
+.cv__header--container {
+  z-index: 2;
+  margin: auto;
+  margin-top: -3em;
+  width: 80%;
+  height: 6em;
+  background: linear-gradient(to right, #fb8122 0%, white 50%);
+  box-shadow: 10px 10px black;
+  border-top: 10px solid #fb8122;
+  position: relative;
+}
+
+.cv__header {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 4em;
+}
+
+.cv__header--box {
+  margin: auto;
+  height: 100%;
+}
+
+.cv__header--homebutton {
+  height: 80%;
+  aspect-ratio: 1/1;
+  top: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(251, 129, 34, 0.6),
+    0 6px 20px 0 rgba(251, 129, 34, 0.19);
+}
+
+.cv__header--homebutton img {
+  width: 100%;
+}
+
+.cv__header--download {
+  width: 50%;
+  height: 80%;
+  top: 10%;
+  position: relative;
+  margin-right: 10%;
+  float: right;
+  border: 2px solid black;
+}
+
+.cv__header--language {
+  height: 80%;
+  aspect-ratio: 1/1;
+  top: 10%;
+  position: relative;
+  float: right;
+  border: 2px solid black;
+}
+
+.cv__pdf {
+  margin: auto;
+  width: 80%;
+  border-top: 10px solid #fb8122;
+  padding-top: 10px;
+  margin-bottom: 10em;
+}
