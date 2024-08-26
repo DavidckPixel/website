@@ -32,18 +32,36 @@
     0 6px 20px 0 rgba(251, 129, 34, 0.19);
 }
 
+.cv__header--homebutton:hover {
+  scale: 1.1;
+  background-color: #fa9c55;
+}
+
+.cv__header--download:hover {
+  scale: 1.1;
+  background-color: #fa9c55;
+}
+
+.cv__header--language:hover {
+  scale: 1.1;
+  background-color: #fa9c55;
+}
+
 .cv__header--homebutton img {
   width: 100%;
 }
 
 .cv__header--download {
-  width: 50%;
   height: 80%;
   top: 10%;
   position: relative;
   margin-right: 10%;
   float: right;
   border: 2px solid black;
+}
+
+.cv__header--download img {
+  height: 100%;
 }
 
 .cv__header--language {
@@ -53,6 +71,10 @@
   position: relative;
   float: right;
   border: 2px solid black;
+}
+
+.cv__header--language img {
+  height: 100%;
 }
 
 .cv__pdf {

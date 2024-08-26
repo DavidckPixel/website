@@ -1,5 +1,23 @@
 .workrecent {
   height: 15em;
+  position: relative;
+}
+
+.workrecent__more {
+  position: absolute;
+  width: 20%;
+  top: 98%;
+  left: 75%;
+  border-top: 5px solid #fb8122;
+  background: linear-gradient(to right, #fb8122 0%, white 20%);
+  height: 2em;
+  box-shadow: 10px 10px #1d2228;
+  z-index: 2;
+}
+
+.workrecent__more h3 {
+  font-size: 20px;
+  text-align: center;
 }
 
 .workrecent__container {

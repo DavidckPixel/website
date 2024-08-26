@@ -9,7 +9,8 @@
 @import "text.css";
 @import "footer.css";
 @import "cv.css";
-
+@import "projects.css";
+@import "project.css";
 .temp {
   height: 10em;
 }

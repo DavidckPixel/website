@@ -52,12 +52,12 @@
           <p class="header__data__text--noimg"><b>Student</b></p>
         </div>
         <div class="header__data__age">
-          <p class="header__data__text--noimg"><b>24</b></p>
+          <p class="header__data__text--noimg"><b>25</b></p>
         </div>
       </section>
       <nav class="container worknav background--dark">
         <div class="worknav__cv">
-          <a class="background--orange worknav__cvlink">
+          <a class="background--orange worknav__cvlink" href="CV.html">
             <div class="text__outer">
               <h2 class="text__center">curriculum vitae</h2>
             </div>
@@ -68,7 +68,15 @@
             <img class="worknav__linkimg" src="../image/YT.svg" />
           </div>
           <div class="worknav__link square background--orange">
-            <img class="worknav__linkimg" src="../image/git.svg" />
+            <a href="https://github.com/DavidckPixel">
+              <img class="worknav__linkimg" src="../image/git.svg" />
+            </a>
+          </div>
+
+          <div class="worknav__link square background--orange">
+            <a href="../index.html">
+              <img class="worknav__linkimg" src="../icons/meIcon.svg" />
+            </a>
           </div>
         </div>
       </nav>
@@ -76,6 +84,9 @@
       <article class="container workrecent">
         <div class="workrecent__title background--grey">
           <h2 class="text__center text__recent">Recent Projects</h2>
+        </div>
+        <div class="workrecent__more">
+          <a href="projects.html"><h3>All Projects</h3></a>
         </div>
         <article class="workrecent__containers boxed background--dark">
           <section class="workrecent__container boxed">
@@ -89,15 +100,19 @@
           </section>
           <section class="workrecent__container boxed">
             <div class="workrecent__containertitle background--orangeflow">
-              Title
+              <h3>Escaperoom Game</h3>
             </div>
-            Test
+            <p>
+              A HTML/ websocket based multiplayer Point and Click escape room
+            </p>
           </section>
           <section class="workrecent__container boxed">
             <div class="workrecent__containertitle background--orangeflow">
-              Title
+              <h3>GraphDB designer</h3>
             </div>
-            Test
+            <p>
+              A Datadriven no-code solution for a Graphdatabase schema designer
+            </p>
           </section>
         </article>
       </article>
@@ -118,38 +133,18 @@
           <div class="skill">
             <div class="skill__header">
               <div class="block--orange border--blue">
-                <img src="../image/Temp.png" />
+                <img src="../icons/teamworkIcon.svg" />
               </div>
-              <h3>Epic skill!</h3>
+              <h3>Team Oriented</h3>
             </div>
             <p>Lorem Upsum!</p>
           </div>
           <div class="skill">
             <div class="skill__header">
               <div class="block--orange border--blue">
-                <img src="../image/Temp.png" />
+                <img src="../icons/puzzleIcon.svg" />
               </div>
-              <h3>Epic skill!</h3>
-            </div>
-            <p>Lorem Upsum!</p>
-          </div>
-        </section>
-        <section class="skills container--33">
-          <div class="skill">
-            <div class="skill__header">
-              <div class="block--orange border--blue">
-                <img src="../image/Temp.png" />
-              </div>
-              <h3>Epic skill!</h3>
-            </div>
-            <p>Lorem Upsum!</p>
-          </div>
-          <div class="skill">
-            <div class="skill__header">
-              <div class="block--orange border--blue">
-                <img src="../image/Temp.png" />
-              </div>
-              <h3>Epic skill!</h3>
+              <h3>Problem Solving</h3>
             </div>
             <p>Lorem Upsum!</p>
           </div>
@@ -158,18 +153,38 @@
           <div class="skill">
             <div class="skill__header">
               <div class="block--orange border--blue">
-                <img src="../image/Temp.png" />
+                <img src="../icons/creativeIcon.svg" />
               </div>
-              <h3>Epic skill!</h3>
+              <h3>Creative</h3>
             </div>
             <p>Lorem Upsum!</p>
           </div>
           <div class="skill">
             <div class="skill__header">
               <div class="block--orange border--blue">
-                <img src="../image/Temp.png" />
+                <img src="../icons/bookIcon.svg" />
               </div>
-              <h3>Epic skill!</h3>
+              <h3>inquisitiveness</h3>
+            </div>
+            <p>Lorem Upsum!</p>
+          </div>
+        </section>
+        <section class="skills container--33">
+          <div class="skill">
+            <div class="skill__header">
+              <div class="block--orange border--blue">
+                <img src="../icons/techIcon.svg" />
+              </div>
+              <h3>Tech Savy</h3>
+            </div>
+            <p>Lorem Upsum!</p>
+          </div>
+          <div class="skill">
+            <div class="skill__header">
+              <div class="block--orange border--blue">
+                <img src="../icons/stressIcon.svg" />
+              </div>
+              <h3>Stress Proof</h3>
             </div>
             <p>Lorem Upsum!</p>
           </div>
@@ -187,19 +202,6 @@
       <article class="container--small education">
         <section class="container--two">
           <button
-            onclick="onEducationClick('UU')"
-            class="boxed education__faculty background--orange"
-          >
-            <div class="education__img">
-              <img src="../image/UU.png" />
-            </div>
-            <div class="education__text">
-              <div class="education__from">2020</div>
-              <div class="education__dash">Bacholer</div>
-              <div class="education__to">2024</div>
-            </div>
-          </button>
-          <button
             onclick="onEducationClick('AM')"
             class="boxed education__faculty background--orange"
           >
@@ -212,6 +214,20 @@
               <div class="education__to">2025</div>
             </div>
           </button>
+          <button
+            onclick="onEducationClick('UU')"
+            class="boxed education__faculty background--orange"
+          >
+            <div class="education__img">
+              <img src="../image/UU.png" />
+            </div>
+            <div class="education__text">
+              <div class="education__from">2020</div>
+              <div class="education__dash">Bacholer</div>
+              <div class="education__to">2024</div>
+            </div>
+          </button>
+
           <button
             onclick="onEducationClick('KWC')"
             class="boxed education__faculty background--orange"
@@ -230,7 +246,7 @@
           class="container--two boxed background--grey"
           id="education__info"
         >
-          <section id="UU" class="">
+          <section id="UU" class="hidden">
             <header class="education__intro">
               <p>I got my bacholers degree in Computer science at the UU</p>
             </header>
@@ -254,7 +270,7 @@
               </p>
             </article>
           </section>
-          <section id="AM" class="hidden">
+          <section id="AM" class="">
             <header class="education__intro">
               <p>
                 In the year 2024-2025, im starting a master at the University of

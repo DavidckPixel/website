@@ -5,7 +5,7 @@
 
 .footer__img {
   width: 100%;
-  background: linear-gradient(white 40%, #fb8122 80%);
+  background: linear-gradient(#f8f8f8 40%, #fb8122 80%);
 }
 
 .footer__img img {
